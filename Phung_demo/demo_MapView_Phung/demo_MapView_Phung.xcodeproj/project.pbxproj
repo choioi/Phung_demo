@@ -297,6 +297,7 @@
 				590B38281DBDF2050081D882 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
