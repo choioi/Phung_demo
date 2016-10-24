@@ -15,6 +15,16 @@
 		B9AFF0926C160927AB8E41B6 /* Pods_Phung_demo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AC3FAE21BB484E79EF53F685 /* Pods_Phung_demo.framework */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		590B382D1DBDF2220081D882 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 590B38291DBDF2210081D882 /* demo_MapView_Phung.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 590B38141DBDF2050081D882;
+			remoteInfo = demo_MapView_Phung;
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
 		590B37F61DBDDE6B0081D882 /* Phung_demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Phung_demo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		590B37F91DBDDE6B0081D882 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -23,6 +33,7 @@
 		590B38001DBDDE6B0081D882 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		590B38031DBDDE6B0081D882 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		590B38051DBDDE6B0081D882 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		590B38291DBDF2210081D882 /* demo_MapView_Phung.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = demo_MapView_Phung.xcodeproj; path = demo_MapView_Phung/demo_MapView_Phung.xcodeproj; sourceTree = "<group>"; };
 		AC3FAE21BB484E79EF53F685 /* Pods_Phung_demo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Phung_demo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F89FC00D0867DAE74133AA3C /* Pods-Phung_demo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Phung_demo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Phung_demo/Pods-Phung_demo.debug.xcconfig"; sourceTree = "<group>"; };
 		FFF9C241AC7CA5713C57F352 /* Pods-Phung_demo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Phung_demo.release.xcconfig"; path = "Pods/Target Support Files/Pods-Phung_demo/Pods-Phung_demo.release.xcconfig"; sourceTree = "<group>"; };
@@ -43,6 +54,7 @@
 		590B37ED1DBDDE6B0081D882 = {
 			isa = PBXGroup;
 			children = (
+				590B38291DBDF2210081D882 /* demo_MapView_Phung.xcodeproj */,
 				590B37F81DBDDE6B0081D882 /* Phung_demo */,
 				590B37F71DBDDE6B0081D882 /* Products */,
 				B3E82103A838B65CD846606B /* Pods */,
@@ -69,6 +81,14 @@
 				590B38051DBDDE6B0081D882 /* Info.plist */,
 			);
 			path = Phung_demo;
+			sourceTree = "<group>";
+		};
+		590B382A1DBDF2210081D882 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				590B382E1DBDF2220081D882 /* demo_MapView_Phung.app */,
+			);
+			name = Products;
 			sourceTree = "<group>";
 		};
 		7C54EDDC0E887BBD5AD324C1 /* Frameworks */ = {
@@ -138,12 +158,28 @@
 			mainGroup = 590B37ED1DBDDE6B0081D882;
 			productRefGroup = 590B37F71DBDDE6B0081D882 /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 590B382A1DBDF2210081D882 /* Products */;
+					ProjectRef = 590B38291DBDF2210081D882 /* demo_MapView_Phung.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				590B37F51DBDDE6B0081D882 /* Phung_demo */,
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		590B382E1DBDF2220081D882 /* demo_MapView_Phung.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = demo_MapView_Phung.app;
+			remoteRef = 590B382D1DBDF2220081D882 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		590B37F41DBDDE6B0081D882 /* Resources */ = {
