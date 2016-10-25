@@ -24,7 +24,7 @@ class ViewController: UIViewController {
         
         //drawTim()
         
-        //drawRecTanglePath()
+        drawRecTanglePath()
         
         drawOval()
         
