@@ -15,14 +15,18 @@ class ViewController: UIViewController {
     
     let shapeLayer = CAShapeLayer()
     
-    let bezierPath = UIBezierPath()
+    var bezierPath = UIBezierPath()
     
     override func viewDidLoad() {
         super.viewDidLoad()
         
         //drawPath()
         
-        drawTim()
+        //drawTim()
+        
+        //drawRecTanglePath()
+        
+        drawOval()
         
         addDrawtoView()
         
@@ -38,7 +42,7 @@ class ViewController: UIViewController {
         
         //let angel:CGFloat = -90;
         
-        let image = UIImage(named: "car-outline-front-view")
+        let image = UIImage(named: "red")
         
         let imageView = UIImageView(image: image)
         
@@ -61,16 +65,19 @@ class ViewController: UIViewController {
         
         // create a new CAKeyframeAnimation that animates the objects position
         
+        //let anim = CAKeyframeAnimation(keyPath: "position")
+        
         let anim = CAKeyframeAnimation(keyPath: "position")
+        
         
         // set the animations path to our bezier curve
         
         anim.path = bezierPath.cgPath
         
-        UIView.animate(withDuration: 1) { () -> Void in
-            anim.rotationMode = kCAAnimationRotateAuto
-            // CATransform3DIdentity gia tri mac dinh khi show cua CELL
-        }
+//        UIView.animate(withDuration: 1) { () -> Void in
+//            anim.rotationMode = kCAAnimationRotateAuto
+//            // CATransform3DIdentity gia tri mac dinh khi show cua CELL
+//        }
 
         anim.rotationMode = kCAAnimationRotateAuto
         
@@ -137,7 +144,7 @@ class ViewController: UIViewController {
         bezierPath.addCurve(to: CGPoint(x: 142.85, y: 214.65), controlPoint1: CGPoint(x: 140.97, y: 212.02), controlPoint2: CGPoint(x: 141.98, y: 213.41))
         bezierPath.addCurve(to: CGPoint(x: 143.65, y: 215.81), controlPoint1: CGPoint(x: 143.16, y: 215.09), controlPoint2: CGPoint(x: 143.42, y: 215.48))
         bezierPath.addCurve(to: CGPoint(x: 143.92, y: 216.23), controlPoint1: CGPoint(x: 143.78, y: 216.02), controlPoint2: CGPoint(x: 143.87, y: 216.16))
-        bezierPath.addLine(to: CGPoint(x: 143.23, y: 216.08))
+        
         bezierPath.addCurve(to: CGPoint(x: 143.62, y: 215.83), controlPoint1: CGPoint(x: 143.3, y: 216.04), controlPoint2: CGPoint(x: 143.43, y: 215.95))
         bezierPath.addCurve(to: CGPoint(x: 144.74, y: 215.13), controlPoint1: CGPoint(x: 143.94, y: 215.63), controlPoint2: CGPoint(x: 144.31, y: 215.4))
         bezierPath.addCurve(to: CGPoint(x: 148.89, y: 212.65), controlPoint1: CGPoint(x: 145.95, y: 214.38), controlPoint2: CGPoint(x: 147.35, y: 213.55))
@@ -158,19 +165,32 @@ class ViewController: UIViewController {
         bezierPath.addCurve(to: CGPoint(x: 145.26, y: 215.98), controlPoint1: CGPoint(x: 147.86, y: 214.41), controlPoint2: CGPoint(x: 146.47, y: 215.24))
         bezierPath.addCurve(to: CGPoint(x: 144.15, y: 216.68), controlPoint1: CGPoint(x: 144.84, y: 216.25), controlPoint2: CGPoint(x: 144.47, y: 216.48))
         bezierPath.addCurve(to: CGPoint(x: 143.77, y: 216.92), controlPoint1: CGPoint(x: 143.96, y: 216.8), controlPoint2: CGPoint(x: 143.84, y: 216.88))
-        bezierPath.addLine(to: CGPoint(x: 143.35, y: 217.19))
-        bezierPath.addLine(to: CGPoint(x: 143.08, y: 216.77))
-        bezierPath.addCurve(to: CGPoint(x: 142.81, y: 216.37), controlPoint1: CGPoint(x: 143.04, y: 216.7), controlPoint2: CGPoint(x: 142.95, y: 216.57))
-        bezierPath.addCurve(to: CGPoint(x: 142.03, y: 215.23), controlPoint1: CGPoint(x: 142.59, y: 216.04), controlPoint2: CGPoint(x: 142.33, y: 215.66))
-        bezierPath.addCurve(to: CGPoint(x: 139.04, y: 211.13), controlPoint1: CGPoint(x: 141.17, y: 213.99), controlPoint2: CGPoint(x: 140.17, y: 212.61))
-        bezierPath.addCurve(to: CGPoint(x: 128.24, y: 198.7), controlPoint1: CGPoint(x: 135.81, y: 206.89), controlPoint2: CGPoint(x: 132.18, y: 202.66))
-        bezierPath.addCurve(to: CGPoint(x: 87.91, y: 181.61), controlPoint1: CGPoint(x: 114.55, y: 184.96), controlPoint2: CGPoint(x: 100.73, y: 178.06))
-        bezierPath.addCurve(to: CGPoint(x: 48.99, y: 246.62), controlPoint1: CGPoint(x: 71.91, y: 186.05), controlPoint2: CGPoint(x: 58.6, y: 206.62))
+        
         bezierPath.close()
        
         bezierPath.fill()
         
     }
+    
+    func drawRecTanglePath(){
+        //// Color Declarations
+        let color2 = UIColor(red: 0.5, green: 0.5, blue: 0.5, alpha: 0)
+        //// Rectangle Drawing
+        bezierPath = UIBezierPath(rect: CGRect(x: 50, y: 50, width: 199, height: 85))
+        color2.setFill()
+        bezierPath.fill()
+    }
+    
+    func drawOval(){
+        
+        let color2 = UIColor(red: 0.5, green: 0.5, blue: 0.5, alpha: 0)
+       
+        bezierPath = UIBezierPath(ovalIn: CGRect(x: 31, y: 17, width: 175, height: 80))
+        color2.setFill()
+        bezierPath.fill()
+    }
+    
+
         
 
 }
