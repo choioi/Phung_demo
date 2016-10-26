@@ -13,6 +13,7 @@
 		5993E13E1DC0962700BB74CB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5993E13D1DC0962700BB74CB /* Assets.xcassets */; };
 		5993E1411DC0962700BB74CB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5993E13F1DC0962700BB74CB /* LaunchScreen.storyboard */; };
 		5993E14B1DC0A41600BB74CB /* UnderKeyboardDistrib.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5993E14A1DC0A41600BB74CB /* UnderKeyboardDistrib.swift */; };
+		5993E14D1DC0BC5F00BB74CB /* Gradient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5993E14C1DC0BC5F00BB74CB /* Gradient.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		5993E1401DC0962700BB74CB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5993E1421DC0962700BB74CB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5993E14A1DC0A41600BB74CB /* UnderKeyboardDistrib.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UnderKeyboardDistrib.swift; sourceTree = "<group>"; };
+		5993E14C1DC0BC5F00BB74CB /* Gradient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Gradient.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +61,7 @@
 				5993E1361DC0962700BB74CB /* AppDelegate.swift */,
 				5993E1381DC0962700BB74CB /* ViewController.swift */,
 				5993E14A1DC0A41600BB74CB /* UnderKeyboardDistrib.swift */,
+				5993E14C1DC0BC5F00BB74CB /* Gradient.swift */,
 				5993E13A1DC0962700BB74CB /* Main.storyboard */,
 				5993E13D1DC0962700BB74CB /* Assets.xcassets */,
 				5993E13F1DC0962700BB74CB /* LaunchScreen.storyboard */,
@@ -99,6 +102,7 @@
 				TargetAttributes = {
 					5993E1321DC0962700BB74CB = {
 						CreatedOnToolsVersion = 8.0;
+						LastSwiftMigration = 0800;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -142,6 +146,7 @@
 				5993E1391DC0962700BB74CB /* ViewController.swift in Sources */,
 				5993E1371DC0962700BB74CB /* AppDelegate.swift in Sources */,
 				5993E14B1DC0A41600BB74CB /* UnderKeyboardDistrib.swift in Sources */,
+				5993E14D1DC0BC5F00BB74CB /* Gradient.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

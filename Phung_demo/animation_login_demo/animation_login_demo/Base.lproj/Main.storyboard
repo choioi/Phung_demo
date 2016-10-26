@@ -21,41 +21,39 @@
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="50" translatesAutoresizingMaskIntoConstraints="NO" id="oH5-5Y-jrf">
                                 <subviews>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="BRs-SV-HG0">
+                                        <subviews>
+                                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="gl1-i0-HpB">
+                                                <frame key="frameInset" minX="102" minY="49" width="97" height="30"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <nil key="textColor"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                <textInputTraits key="textInputTraits"/>
+                                            </textField>
+                                        </subviews>
                                         <color key="backgroundColor" red="0.0" green="1" blue="0.052975194320000002" alpha="1" colorSpace="calibratedRGB"/>
-                                    </view>
-                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="EWy-By-Vyd">
-                                        <color key="backgroundColor" red="1" green="0.0" blue="0.3557631108" alpha="1" colorSpace="calibratedRGB"/>
-                                        <constraints>
-                                            <constraint firstAttribute="height" constant="128" id="0jG-wZ-ax7"/>
-                                            <constraint firstAttribute="width" constant="240" id="EJh-TZ-e90"/>
-                                        </constraints>
                                     </view>
                                 </subviews>
                                 <constraints>
-                                    <constraint firstItem="EWy-By-Vyd" firstAttribute="top" secondItem="oH5-5Y-jrf" secondAttribute="top" constant="178" id="8Z8-Yn-Ags"/>
-                                    <constraint firstAttribute="width" constant="240" id="nKu-qy-VYy"/>
+                                    <constraint firstAttribute="width" constant="300" id="nKu-qy-VYy"/>
                                 </constraints>
                             </stackView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="ABCD ABCD" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aPj-Xk-Hmk">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Temrs &amp; Conditions" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aPj-Xk-Hmk">
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="z2a-8w-1Px">
-                                <constraints>
-                                    <constraint firstAttribute="width" constant="240" id="5ff-Oz-Nbq"/>
-                                </constraints>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Contact Support" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="X5g-ak-h7E">
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits"/>
-                            </textField>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
-                            <constraint firstItem="z2a-8w-1Px" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="9FM-0A-r9S"/>
+                            <constraint firstItem="X5g-ak-h7E" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="1pN-ch-wZG"/>
                             <constraint firstItem="oH5-5Y-jrf" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="GVY-VT-mj5"/>
                             <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="oH5-5Y-jrf" secondAttribute="bottom" constant="285" id="GpZ-ij-884"/>
-                            <constraint firstItem="z2a-8w-1Px" firstAttribute="top" secondItem="oH5-5Y-jrf" secondAttribute="bottom" constant="31" id="KNu-hs-1gY"/>
+                            <constraint firstItem="aPj-Xk-Hmk" firstAttribute="top" secondItem="X5g-ak-h7E" secondAttribute="bottom" constant="9" id="aqq-kZ-U4D"/>
                             <constraint firstItem="oH5-5Y-jrf" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="56" id="b4B-1f-XvY"/>
                             <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="aPj-Xk-Hmk" secondAttribute="bottom" constant="46" id="gYc-Yo-po6"/>
                             <constraint firstItem="aPj-Xk-Hmk" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="jHy-WG-hPl"/>
