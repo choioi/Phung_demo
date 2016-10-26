@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11201" systemVersion="15G31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11161"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="animation_login_demo" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="50" translatesAutoresizingMaskIntoConstraints="NO" id="oH5-5Y-jrf">
+                                <subviews>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="BRs-SV-HG0">
+                                        <color key="backgroundColor" red="0.0" green="1" blue="0.052975194320000002" alpha="1" colorSpace="calibratedRGB"/>
+                                    </view>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="EWy-By-Vyd">
+                                        <color key="backgroundColor" red="1" green="0.0" blue="0.3557631108" alpha="1" colorSpace="calibratedRGB"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="128" id="0jG-wZ-ax7"/>
+                                            <constraint firstAttribute="width" constant="240" id="EJh-TZ-e90"/>
+                                        </constraints>
+                                    </view>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstItem="EWy-By-Vyd" firstAttribute="top" secondItem="oH5-5Y-jrf" secondAttribute="top" constant="178" id="8Z8-Yn-Ags"/>
+                                    <constraint firstAttribute="width" constant="240" id="nKu-qy-VYy"/>
+                                </constraints>
+                            </stackView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="ABCD ABCD" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aPj-Xk-Hmk">
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="z2a-8w-1Px">
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="240" id="5ff-Oz-Nbq"/>
+                                </constraints>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="z2a-8w-1Px" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="9FM-0A-r9S"/>
+                            <constraint firstItem="oH5-5Y-jrf" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="GVY-VT-mj5"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="oH5-5Y-jrf" secondAttribute="bottom" constant="285" id="GpZ-ij-884"/>
+                            <constraint firstItem="z2a-8w-1Px" firstAttribute="top" secondItem="oH5-5Y-jrf" secondAttribute="bottom" constant="31" id="KNu-hs-1gY"/>
+                            <constraint firstItem="oH5-5Y-jrf" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="56" id="b4B-1f-XvY"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="aPj-Xk-Hmk" secondAttribute="bottom" constant="46" id="gYc-Yo-po6"/>
+                            <constraint firstItem="aPj-Xk-Hmk" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="jHy-WG-hPl"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="bot" destination="gYc-Yo-po6" id="K30-uC-84j"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="60" y="118.29085457271366"/>
+        </scene>
+    </scenes>
+</document>
