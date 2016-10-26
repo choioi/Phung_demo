@@ -11,6 +11,8 @@ import UIKit
 
 class ViewController: UIViewController {
     
+    @IBAction func click(_ sender: AnyObject) {
+    }
     let color = UIColor(red: 0.000, green: 0.000, blue: 0.000, alpha: 0.00)
     
     let shapeLayer = CAShapeLayer()
@@ -31,6 +33,8 @@ class ViewController: UIViewController {
         addDrawtoView()
         
         animationCar()
+        @IBAction func click(_ sender: AnyObject) {
+        }
       
     }
     

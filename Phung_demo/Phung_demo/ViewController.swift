@@ -16,7 +16,10 @@ class ViewController: UIViewController {
     @IBOutlet weak var imagePhone: UIImageView!
     
     
+    @IBOutlet weak var byr: UIButton!
     override func viewDidLoad() {
+        @IBAction func aaaa(_ sender: UIButton) {
+        }
         super.viewDidLoad()
         
         //config Circle
@@ -63,3 +66,5 @@ class ViewController: UIViewController {
     
 }
 
+@IBAction func click1(_ sender: AnyObject) {
+}
