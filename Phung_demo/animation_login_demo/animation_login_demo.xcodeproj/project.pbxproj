@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		593F040D1DC0F94B00A2B42C /* customButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 593F040C1DC0F94B00A2B42C /* customButton.swift */; };
 		5993E1371DC0962700BB74CB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5993E1361DC0962700BB74CB /* AppDelegate.swift */; };
 		5993E1391DC0962700BB74CB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5993E1381DC0962700BB74CB /* ViewController.swift */; };
 		5993E13C1DC0962700BB74CB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5993E13A1DC0962700BB74CB /* Main.storyboard */; };
@@ -17,6 +18,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		593F040C1DC0F94B00A2B42C /* customButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = customButton.swift; sourceTree = "<group>"; };
 		5993E1331DC0962700BB74CB /* animation_login_demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = animation_login_demo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5993E1361DC0962700BB74CB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5993E1381DC0962700BB74CB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -60,14 +62,23 @@
 			children = (
 				5993E1361DC0962700BB74CB /* AppDelegate.swift */,
 				5993E1381DC0962700BB74CB /* ViewController.swift */,
-				5993E14A1DC0A41600BB74CB /* UnderKeyboardDistrib.swift */,
-				5993E14C1DC0BC5F00BB74CB /* Gradient.swift */,
+				59E8082B1DC0E9000037A18A /* Helper */,
 				5993E13A1DC0962700BB74CB /* Main.storyboard */,
 				5993E13D1DC0962700BB74CB /* Assets.xcassets */,
 				5993E13F1DC0962700BB74CB /* LaunchScreen.storyboard */,
 				5993E1421DC0962700BB74CB /* Info.plist */,
 			);
 			path = animation_login_demo;
+			sourceTree = "<group>";
+		};
+		59E8082B1DC0E9000037A18A /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				5993E14A1DC0A41600BB74CB /* UnderKeyboardDistrib.swift */,
+				5993E14C1DC0BC5F00BB74CB /* Gradient.swift */,
+				593F040C1DC0F94B00A2B42C /* customButton.swift */,
+			);
+			name = Helper;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -147,6 +158,7 @@
 				5993E1371DC0962700BB74CB /* AppDelegate.swift in Sources */,
 				5993E14B1DC0A41600BB74CB /* UnderKeyboardDistrib.swift in Sources */,
 				5993E14D1DC0BC5F00BB74CB /* Gradient.swift in Sources */,
+				593F040D1DC0F94B00A2B42C /* customButton.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
