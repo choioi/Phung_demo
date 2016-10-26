@@ -32,9 +32,12 @@ class ViewController: UIViewController,UITextFieldDelegate {
     
     
     
-    
     let colors = Colors()
     let underKeyboardLayoutConstraint = UnderKeyboardLayoutConstraint()
+    
+    let gradientLayer = CAGradientLayer()
+    
+
     
     // This constraint ties an element at zero points from the bottom layout guide
         @IBOutlet var keyboardHeightLayoutConstraint: NSLayoutConstraint?
@@ -50,8 +53,9 @@ class ViewController: UIViewController,UITextFieldDelegate {
             underKeyboardLayoutConstraint.setup(bot,
                                                 view: view,
                                                 bottomLayoutGuide: bottomLayoutGuide)
-            setGradientBackground()
-            //or changeGradient()
+            //setGradientBackground()
+            //or
+            changeGradient()
 
            
         }
@@ -70,7 +74,7 @@ class ViewController: UIViewController,UITextFieldDelegate {
         let colorTop =  UIColor(red: 255.0/255.0, green: 149.0/255.0, blue: 0.0/255.0, alpha: 1.0).cgColor
         let colorBottom = UIColor(red: 255.0/255.0, green: 94.0/255.0, blue: 58.0/255.0, alpha: 1.0).cgColor
         
-        let gradientLayer = CAGradientLayer()
+        
         gradientLayer.colors = [ colorTop, colorBottom]
         gradientLayer.locations = [ 0.0, 1.0]
         gradientLayer.frame = self.view.bounds
@@ -97,6 +101,12 @@ class ViewController: UIViewController,UITextFieldDelegate {
         buttonFacebook.isHidden = true
         return true
 
+    }
+    
+    //fix rotate not lost gradient
+    override func willAnimateRotation(to toInterfaceOrientation: UIInterfaceOrientation, duration: TimeInterval) {
+        self.view.layer.sublayers?.first?.frame = self.view.bounds
+        
     }
 
     
