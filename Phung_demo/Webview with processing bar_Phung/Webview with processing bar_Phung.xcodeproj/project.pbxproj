@@ -7,112 +7,100 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		5993E1161DC0914E00BB74CB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5993E1151DC0914E00BB74CB /* AppDelegate.swift */; };
-		5993E1181DC0914E00BB74CB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5993E1171DC0914E00BB74CB /* ViewController.swift */; };
-		5993E11B1DC0914E00BB74CB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5993E1191DC0914E00BB74CB /* Main.storyboard */; };
-		5993E11D1DC0914F00BB74CB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5993E11C1DC0914F00BB74CB /* Assets.xcassets */; };
-		5993E1201DC0914F00BB74CB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5993E11E1DC0914F00BB74CB /* LaunchScreen.storyboard */; };
-		5993E1291DC0917100BB74CB /* LocalAuthentication.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5993E1281DC0917100BB74CB /* LocalAuthentication.framework */; };
+		594C63821DC1D86900FC7026 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 594C63811DC1D86900FC7026 /* AppDelegate.swift */; };
+		594C63841DC1D86900FC7026 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 594C63831DC1D86900FC7026 /* ViewController.swift */; };
+		594C63871DC1D86900FC7026 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 594C63851DC1D86900FC7026 /* Main.storyboard */; };
+		594C63891DC1D86900FC7026 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 594C63881DC1D86900FC7026 /* Assets.xcassets */; };
+		594C638C1DC1D86900FC7026 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 594C638A1DC1D86900FC7026 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		5993E1121DC0914E00BB74CB /* touchID_demo_Phung.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = touchID_demo_Phung.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		5993E1151DC0914E00BB74CB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		5993E1171DC0914E00BB74CB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		5993E11A1DC0914E00BB74CB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		5993E11C1DC0914F00BB74CB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		5993E11F1DC0914F00BB74CB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		5993E1211DC0914F00BB74CB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		5993E1281DC0917100BB74CB /* LocalAuthentication.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = LocalAuthentication.framework; path = System/Library/Frameworks/LocalAuthentication.framework; sourceTree = SDKROOT; };
+		594C637E1DC1D86900FC7026 /* Webview with processing bar_Phung.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Webview with processing bar_Phung.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		594C63811DC1D86900FC7026 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		594C63831DC1D86900FC7026 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		594C63861DC1D86900FC7026 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		594C63881DC1D86900FC7026 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		594C638B1DC1D86900FC7026 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		594C638D1DC1D86900FC7026 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		5993E10F1DC0914E00BB74CB /* Frameworks */ = {
+		594C637B1DC1D86900FC7026 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5993E1291DC0917100BB74CB /* LocalAuthentication.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		5993E1091DC0914E00BB74CB = {
+		594C63751DC1D86900FC7026 = {
 			isa = PBXGroup;
 			children = (
-				5993E1141DC0914E00BB74CB /* touchID_demo_Phung */,
-				5993E1131DC0914E00BB74CB /* Products */,
-				5993E1271DC0917100BB74CB /* Frameworks */,
+				594C63801DC1D86900FC7026 /* Webview with processing bar_Phung */,
+				594C637F1DC1D86900FC7026 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		5993E1131DC0914E00BB74CB /* Products */ = {
+		594C637F1DC1D86900FC7026 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				5993E1121DC0914E00BB74CB /* touchID_demo_Phung.app */,
+				594C637E1DC1D86900FC7026 /* Webview with processing bar_Phung.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		5993E1141DC0914E00BB74CB /* touchID_demo_Phung */ = {
+		594C63801DC1D86900FC7026 /* Webview with processing bar_Phung */ = {
 			isa = PBXGroup;
 			children = (
-				5993E1151DC0914E00BB74CB /* AppDelegate.swift */,
-				5993E1171DC0914E00BB74CB /* ViewController.swift */,
-				5993E1191DC0914E00BB74CB /* Main.storyboard */,
-				5993E11C1DC0914F00BB74CB /* Assets.xcassets */,
-				5993E11E1DC0914F00BB74CB /* LaunchScreen.storyboard */,
-				5993E1211DC0914F00BB74CB /* Info.plist */,
+				594C63811DC1D86900FC7026 /* AppDelegate.swift */,
+				594C63831DC1D86900FC7026 /* ViewController.swift */,
+				594C63851DC1D86900FC7026 /* Main.storyboard */,
+				594C63881DC1D86900FC7026 /* Assets.xcassets */,
+				594C638A1DC1D86900FC7026 /* LaunchScreen.storyboard */,
+				594C638D1DC1D86900FC7026 /* Info.plist */,
 			);
-			path = touchID_demo_Phung;
-			sourceTree = "<group>";
-		};
-		5993E1271DC0917100BB74CB /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				5993E1281DC0917100BB74CB /* LocalAuthentication.framework */,
-			);
-			name = Frameworks;
+			path = "Webview with processing bar_Phung";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		5993E1111DC0914E00BB74CB /* touchID_demo_Phung */ = {
+		594C637D1DC1D86900FC7026 /* Webview with processing bar_Phung */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 5993E1241DC0914F00BB74CB /* Build configuration list for PBXNativeTarget "touchID_demo_Phung" */;
+			buildConfigurationList = 594C63901DC1D86900FC7026 /* Build configuration list for PBXNativeTarget "Webview with processing bar_Phung" */;
 			buildPhases = (
-				5993E10E1DC0914E00BB74CB /* Sources */,
-				5993E10F1DC0914E00BB74CB /* Frameworks */,
-				5993E1101DC0914E00BB74CB /* Resources */,
+				594C637A1DC1D86900FC7026 /* Sources */,
+				594C637B1DC1D86900FC7026 /* Frameworks */,
+				594C637C1DC1D86900FC7026 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = touchID_demo_Phung;
-			productName = touchID_demo_Phung;
-			productReference = 5993E1121DC0914E00BB74CB /* touchID_demo_Phung.app */;
+			name = "Webview with processing bar_Phung";
+			productName = "Webview with processing bar_Phung";
+			productReference = 594C637E1DC1D86900FC7026 /* Webview with processing bar_Phung.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		5993E10A1DC0914E00BB74CB /* Project object */ = {
+		594C63761DC1D86900FC7026 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0800;
 				LastUpgradeCheck = 0800;
 				ORGANIZATIONNAME = Phung;
 				TargetAttributes = {
-					5993E1111DC0914E00BB74CB = {
+					594C637D1DC1D86900FC7026 = {
 						CreatedOnToolsVersion = 8.0;
 						ProvisioningStyle = Automatic;
 					};
 				};
 			};
-			buildConfigurationList = 5993E10D1DC0914E00BB74CB /* Build configuration list for PBXProject "touchID_demo_Phung" */;
+			buildConfigurationList = 594C63791DC1D86900FC7026 /* Build configuration list for PBXProject "Webview with processing bar_Phung" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -120,54 +108,54 @@
 				en,
 				Base,
 			);
-			mainGroup = 5993E1091DC0914E00BB74CB;
-			productRefGroup = 5993E1131DC0914E00BB74CB /* Products */;
+			mainGroup = 594C63751DC1D86900FC7026;
+			productRefGroup = 594C637F1DC1D86900FC7026 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				5993E1111DC0914E00BB74CB /* touchID_demo_Phung */,
+				594C637D1DC1D86900FC7026 /* Webview with processing bar_Phung */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		5993E1101DC0914E00BB74CB /* Resources */ = {
+		594C637C1DC1D86900FC7026 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5993E1201DC0914F00BB74CB /* LaunchScreen.storyboard in Resources */,
-				5993E11D1DC0914F00BB74CB /* Assets.xcassets in Resources */,
-				5993E11B1DC0914E00BB74CB /* Main.storyboard in Resources */,
+				594C638C1DC1D86900FC7026 /* LaunchScreen.storyboard in Resources */,
+				594C63891DC1D86900FC7026 /* Assets.xcassets in Resources */,
+				594C63871DC1D86900FC7026 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		5993E10E1DC0914E00BB74CB /* Sources */ = {
+		594C637A1DC1D86900FC7026 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5993E1181DC0914E00BB74CB /* ViewController.swift in Sources */,
-				5993E1161DC0914E00BB74CB /* AppDelegate.swift in Sources */,
+				594C63841DC1D86900FC7026 /* ViewController.swift in Sources */,
+				594C63821DC1D86900FC7026 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		5993E1191DC0914E00BB74CB /* Main.storyboard */ = {
+		594C63851DC1D86900FC7026 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				5993E11A1DC0914E00BB74CB /* Base */,
+				594C63861DC1D86900FC7026 /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		5993E11E1DC0914F00BB74CB /* LaunchScreen.storyboard */ = {
+		594C638A1DC1D86900FC7026 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				5993E11F1DC0914F00BB74CB /* Base */,
+				594C638B1DC1D86900FC7026 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -175,7 +163,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		5993E1221DC0914F00BB74CB /* Debug */ = {
+		594C638E1DC1D86900FC7026 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -224,7 +212,7 @@
 			};
 			name = Debug;
 		};
-		5993E1231DC0914F00BB74CB /* Release */ = {
+		594C638F1DC1D86900FC7026 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -266,25 +254,25 @@
 			};
 			name = Release;
 		};
-		5993E1251DC0914F00BB74CB /* Debug */ = {
+		594C63911DC1D86900FC7026 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = touchID_demo_Phung/Info.plist;
+				INFOPLIST_FILE = "Webview with processing bar_Phung/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "phung.touchID-demo-Phung";
+				PRODUCT_BUNDLE_IDENTIFIER = "phung.Webview-with-processing-bar-Phung";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
-		5993E1261DC0914F00BB74CB /* Release */ = {
+		594C63921DC1D86900FC7026 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = touchID_demo_Phung/Info.plist;
+				INFOPLIST_FILE = "Webview with processing bar_Phung/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "phung.touchID-demo-Phung";
+				PRODUCT_BUNDLE_IDENTIFIER = "phung.Webview-with-processing-bar-Phung";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
@@ -293,24 +281,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		5993E10D1DC0914E00BB74CB /* Build configuration list for PBXProject "touchID_demo_Phung" */ = {
+		594C63791DC1D86900FC7026 /* Build configuration list for PBXProject "Webview with processing bar_Phung" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				5993E1221DC0914F00BB74CB /* Debug */,
-				5993E1231DC0914F00BB74CB /* Release */,
+				594C638E1DC1D86900FC7026 /* Debug */,
+				594C638F1DC1D86900FC7026 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		5993E1241DC0914F00BB74CB /* Build configuration list for PBXNativeTarget "touchID_demo_Phung" */ = {
+		594C63901DC1D86900FC7026 /* Build configuration list for PBXNativeTarget "Webview with processing bar_Phung" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				5993E1251DC0914F00BB74CB /* Debug */,
-				5993E1261DC0914F00BB74CB /* Release */,
+				594C63911DC1D86900FC7026 /* Debug */,
+				594C63921DC1D86900FC7026 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 5993E10A1DC0914E00BB74CB /* Project object */;
+	rootObject = 594C63761DC1D86900FC7026 /* Project object */;
 }

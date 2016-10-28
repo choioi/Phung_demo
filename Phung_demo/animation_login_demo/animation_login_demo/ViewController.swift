@@ -50,6 +50,8 @@ class ViewController: UIViewController,UITextFieldDelegate {
             
             txtName.delegate = self
             txtPass.delegate = self
+            
+            //Setup keyboard scroll
             underKeyboardLayoutConstraint.setup(bot,
                                                 view: view,
                                                 bottomLayoutGuide: bottomLayoutGuide)
@@ -85,7 +87,7 @@ class ViewController: UIViewController,UITextFieldDelegate {
     
     
     
-    //return to hide keyboard
+    //return to hide keyboard, show 2 button back
     
     func textFieldShouldReturn(_ textField: UITextField) -> Bool {
         
@@ -96,6 +98,7 @@ class ViewController: UIViewController,UITextFieldDelegate {
         return true
     }
     
+    //Hidden button when show keyboard
     func textFieldShouldBeginEditing(_ textField: UITextField) -> Bool {
         buttonGmail.isHidden = true
         buttonFacebook.isHidden = true

@@ -4,7 +4,7 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
-		<key>touchID_demo_Phung.xcscheme</key>
+		<key>TouchIDTutorial.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
 			<integer>0</integer>
@@ -12,7 +12,7 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>5993E1111DC0914E00BB74CB</key>
+		<key>8698DD921BBC2D63005F3CA6</key>
 		<dict>
 			<key>primary</key>
 			<true/>

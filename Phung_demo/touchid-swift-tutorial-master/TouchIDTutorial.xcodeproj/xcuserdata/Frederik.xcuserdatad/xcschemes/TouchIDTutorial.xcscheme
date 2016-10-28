@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Scheme
-   LastUpgradeVersion = "0800"
+   LastUpgradeVersion = "0700"
    version = "1.3">
    <BuildAction
       parallelizeBuildables = "YES"
@@ -14,10 +14,10 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "5993E1111DC0914E00BB74CB"
-               BuildableName = "touchID_demo_Phung.app"
-               BlueprintName = "touchID_demo_Phung"
-               ReferencedContainer = "container:touchID_demo_Phung.xcodeproj">
+               BlueprintIdentifier = "8698DD921BBC2D63005F3CA6"
+               BuildableName = "TouchIDTutorial.app"
+               BlueprintName = "TouchIDTutorial"
+               ReferencedContainer = "container:TouchIDTutorial.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -32,10 +32,10 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "5993E1111DC0914E00BB74CB"
-            BuildableName = "touchID_demo_Phung.app"
-            BlueprintName = "touchID_demo_Phung"
-            ReferencedContainer = "container:touchID_demo_Phung.xcodeproj">
+            BlueprintIdentifier = "8698DD921BBC2D63005F3CA6"
+            BuildableName = "TouchIDTutorial.app"
+            BlueprintName = "TouchIDTutorial"
+            ReferencedContainer = "container:TouchIDTutorial.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -55,10 +55,10 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "5993E1111DC0914E00BB74CB"
-            BuildableName = "touchID_demo_Phung.app"
-            BlueprintName = "touchID_demo_Phung"
-            ReferencedContainer = "container:touchID_demo_Phung.xcodeproj">
+            BlueprintIdentifier = "8698DD921BBC2D63005F3CA6"
+            BuildableName = "TouchIDTutorial.app"
+            BlueprintName = "TouchIDTutorial"
+            ReferencedContainer = "container:TouchIDTutorial.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -74,10 +74,10 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "5993E1111DC0914E00BB74CB"
-            BuildableName = "touchID_demo_Phung.app"
-            BlueprintName = "touchID_demo_Phung"
-            ReferencedContainer = "container:touchID_demo_Phung.xcodeproj">
+            BlueprintIdentifier = "8698DD921BBC2D63005F3CA6"
+            BuildableName = "TouchIDTutorial.app"
+            BlueprintName = "TouchIDTutorial"
+            ReferencedContainer = "container:TouchIDTutorial.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

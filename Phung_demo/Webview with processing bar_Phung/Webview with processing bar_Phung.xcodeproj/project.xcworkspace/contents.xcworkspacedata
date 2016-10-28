@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:touchID_demo_Phung.xcodeproj">
+      location = "self:Webview with processing bar_Phung.xcodeproj">
    </FileRef>
 </Workspace>
