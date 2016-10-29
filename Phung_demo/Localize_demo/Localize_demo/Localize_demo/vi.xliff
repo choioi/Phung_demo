@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 http://docs.oasis-open.org/xliff/v1.2/os/xliff-core-1.2-strict.xsd">
+  <file original="Localize_demo/Base.lproj/LaunchScreen.storyboard" source-language="en" datatype="plaintext" target-language="vi">
+    <header>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="8.0" build-num="8A218a"/>
+    </header>
+    <body/>
+  </file>
+  <file original="Localize_demo/Base.lproj/Main.storyboard" source-language="en" datatype="plaintext" target-language="vi">
+    <header>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="8.0" build-num="8A218a"/>
+    </header>
+    <body>
+      <trans-unit id="RvY-kp-XOI.text">
+        <source>Label</source>
+        <note>Class = "UILabel"; text = "Label"; ObjectID = "RvY-kp-XOI";</note>
+      </trans-unit>
+      <trans-unit id="WF7-wQ-fzm.text">
+        <source>English</source>
+        <target>VietNam</target>
+        <note>Class = "UILabel"; text = "English"; ObjectID = "WF7-wQ-fzm";</note>
+      </trans-unit>
+      <trans-unit id="pnO-N6-h7y.normalTitle">
+        <source>Button</source>
+        <note>Class = "UIButton"; normalTitle = "Button"; ObjectID = "pnO-N6-h7y";</note>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="Localize_demo/Info.plist" source-language="en" datatype="plaintext" target-language="vi">
+    <header>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="8.0" build-num="8A218a"/>
+    </header>
+    <body>
+      <trans-unit id="CFBundleName">
+        <source>$(PRODUCT_NAME)</source>
+      </trans-unit>
+      <trans-unit id="CFBundleShortVersionString">
+        <source>1.0</source>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="Localize_demo/en.lproj/Localizable.strings" source-language="en" datatype="plaintext" target-language="vi">
+    <header>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="8.0" build-num="8A218a"/>
+    </header>
+    <body>
+      <trans-unit id="My Title">
+        <source>My Title</source>
+        <target>Tieu de</target>
+      </trans-unit>
+      <trans-unit id="OK">
+        <source>OK</source>
+        <target>Chap nhan</target>
+      </trans-unit>
+      <trans-unit id="This is my message.">
+        <source>This is my message.</source>
+        <target>Noi dung tieng viet</target>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

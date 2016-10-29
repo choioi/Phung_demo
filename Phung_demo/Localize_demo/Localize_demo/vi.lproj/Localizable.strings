@@ -1,0 +1,11 @@
+/* 
+  Localizable.strings
+  Localize_demo
+
+  Created by Phung on 10/30/16.
+  Copyright © 2016 Phung. All rights reserved.
+*/
+"My Title"              = "Tieu de";
+"This is my message."   = "Noi dung tieng viet";
+"OK" = "Chap nhan";
+
